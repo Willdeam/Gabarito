@@ -1,29 +1,14 @@
-<!DOCTYPE html><!--Gabarito-->
+<!DOCTYPE html><!--Exercicios vetores-->
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Gabarito</title>
-        <script>
-            var gabarito = ["a", "b", "c", "d", "e", "a", "b", "c", "d", "e”];
-            var reposta =  document.getElementById("resposta").value;
-            resposta = new Array(9);
-            var rQ1 = document.getElementsByName("respostaQ1");
-            var iq1;
-            for (iq1 = 0; iq1 < rQ1.length; iq1++) {
-              if (rQ1[iq1].className == "respostaQ1") {
-                rQ1[iq1].checked = true;    
-        </script><!---->
+        <title>title</title>
+        <script></script>
     </head>
     <body>
-        <h1>Respostas</h1>
-        <h2>Questão 1</h2>
-        <form id="quest1">
-            <input type="radio" class="respostaQ1" name="respostaQ1" id="aq1" value="a">A
-            <input type="radio" class="respostaQ1" name="respostaQ1" id="bq1" value="b">B
-            <input type="radio" class="respostaQ1" name="respostaQ1" id="cq1" value="c">C
-            <input type="radio" class="respostaQ1" name="respostaQ1" id="dq1" value="d">D
-            <input type="radio" class="respostaQ1" name="respostaQ1" id="eq1" value="e">E
-        </form>
+        <h1>h1</h1>
+        <h2>h2</h2>
+
         <p>p</p>
     </body>
-</html>
+</html
