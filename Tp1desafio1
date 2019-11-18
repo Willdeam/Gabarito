@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>Ordem inversa2</title>
-        <script>
-        var numeros = new Array(10);
-        function vetorAoQuadrado(){
-        for(var i = 0; i<numeros.length; i++) {
-             numeros[i] = i;
-        }
-        document.getElementById("resultA1").innerHTML = numeros + "," + numeros.reverse();
+         for(var i = 0; i <numeros.length; i++) {
+             numeros[i] = document.getElementById("usu").value;
+    }
+        document.getElementById("resultA1").innerHTML = numeros;
+        document.getElementById("resultA").innerHTML = numeros.reverse();
         }
         </script>
     </head>
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
+        <p>Valor:<input type = "number" id = "usu"></p>
+        <p>Valor:<input type = "number" id = "usu"></p>
         <p id="resultA1">p1<p>
         <p id="resultA">p</p>
         <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
