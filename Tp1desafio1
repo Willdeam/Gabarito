@@ -1,13 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--Exercicios vetores-->
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Ordem Inversa</title>
-        <script></script>
+        <title>title</title>
+        <script>
+        <script>
+         var numeros = new Array(10);
+            alert(typeof(numeros));
+            
+        for(var i = 0; i<numeros.length; i++) {
+            numeros[i] =
+        }
+        }
+        </script>
     </head>
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
-        <p>p</p>
+        <p id="resultA">p</p>
+        <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
     </body>
-</html>
+</html
