@@ -10,6 +10,7 @@
         for(var i = 0; i<numeros.length; i++) {
              numeros[i] = i;
         }
+        document.getElementById("resultA1").innerHTML = numeros;
         document.getElementById("resultA").innerHTML = numeros.reverse();
         }
         </script>
@@ -17,6 +18,7 @@
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
+        <p id="resultA1">p1<p>
         <p id="resultA">p</p>
         <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
     </body>
