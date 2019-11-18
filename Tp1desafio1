@@ -5,7 +5,7 @@
         <title>Gabarito</title>
         <script>
             var gabarito = ["a", "b", "c", "d", "e", "a", "b", "c", "d", "e”];
-            var reposta = ;
+            var reposta = document.write ;
         </script><!---->
     </head>
     <body>
