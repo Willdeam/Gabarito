@@ -6,17 +6,18 @@
         <script>
         function vetorAoQuadrado(){
         var vetor1 = ["0","1","2","3","4","5","6","7","8","9"];
-        vetor1[0] = Number(vetor1[0])*Number(vetor1[0]);
-        vetor1[1] = Number(vetor1[1])*Number(vetor1[1]);
-        vetor1[2] = Number(vetor1[2])*Number(vetor1[2]);
-        vetor1[3] = Number(vetor1[3])*Number(vetor1[3]);
-        vetor1[4] = Number(vetor1[4])*Number(vetor1[4]);
-        vetor1[5] = Number(vetor1[5])*Number(vetor1[5]);
-        vetor1[6] = Number(vetor1[6])*Number(vetor1[6]);
-        vetor1[7] = Number(vetor1[7])*Number(vetor1[7]);
-        vetor1[8] = Number(vetor1[8])*Number(vetor1[8]);
-        vetor1[9] = Number(vetor1[9])*Number(vetor1[9]);
-        document.getElementById("resultA").innerHTML = vetor1;
+        var vetor2 = [];
+        vetor2[0] = Number(vetor1[0])*Number(vetor1[0]);
+        vetor2[1] = Number(vetor1[1])*Number(vetor1[1]);
+        vetor2[2] = Number(vetor1[2])*Number(vetor1[2]);
+        vetor2[3] = Number(vetor1[3])*Number(vetor1[3]);
+        vetor2[4] = Number(vetor1[4])*Number(vetor1[4]);
+        vetor2[5] = Number(vetor1[5])*Number(vetor1[5]);
+        vetor2[6] = Number(vetor1[6])*Number(vetor1[6]);
+        vetor2[7] = Number(vetor1[7])*Number(vetor1[7]);
+        vetor2[8] = Number(vetor1[8])*Number(vetor1[8]);
+        vetor2[9] = Number(vetor1[9])*Number(vetor1[9]);
+        document.getElementById("resultA").innerHTML = vetor2;
         }
         </script>
     </head><!--var vetorDe10 = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
