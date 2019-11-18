@@ -1,18 +1,17 @@
-<!DOCTYPE html><!--Exercicios vetores-->
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>title</title>
+        <title>Ordem inversa</title>
         <script>
-        <script>
-         var numeros = new Array(10);
+        var numeros = new Array(10);
             alert(typeof(numeros));
-            
+        function vetorAoQuadrado(){
         for(var i = 0; i<numeros.length; i++) {
              numeros[i] = i;
         }
-        document.write(numeros.reverse());
-
+        document.getElementById("resultA").innerHTML = numeros.reverse();
+        }
         </script>
     </head>
     <body>
@@ -21,4 +20,4 @@
         <p id="resultA">p</p>
         <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
     </body>
-</html
+</html>
