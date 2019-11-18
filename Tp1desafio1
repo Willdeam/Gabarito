@@ -5,7 +5,8 @@
         <title>Gabarito</title>
         <script>
             var gabarito = ["a", "b", "c", "d", "e", "a", "b", "c", "d", "e”];
-            var reposta = document.write ;
+            var reposta =  document.getElementById("resposta").value;
+         resposta = new Array(9); ;
         </script><!---->
     </head>
     <body>
