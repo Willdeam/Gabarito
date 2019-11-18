@@ -5,20 +5,22 @@
         <title>Ordem inversa</title>
         <script>
         var numeros = new Array(10);
-        function vetorAoQuadrado(){
-        for(var i = 0; i<numeros.length; i++) {
-             numeros[i] = i;
+         function vetorzin() {
+         for(var i = 0; i<numeros.length; i++) {
+            numeros[i] = new Array(10);
+         numeros[i][i] = i;
         }
-        document.getElementById("resultA1").innerHTML = numeros;
-        document.getElementById("resultA").innerHTML = numeros.reverse();
+        //document.getElementById("resultA").innerHTML = numeros.reverse();
+            document.write(numeros);
+        
         }
         </script>
     </head>
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
-        <p id="resultA1">p1<p>
-        <p id="resultA">p</p>
-        <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
+        <p id="resultA">oi</p>
+        <button type="button" onclick="vetorzin()">Aperta</button>
     </body>
-</html>
+</html
+    
