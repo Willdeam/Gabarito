@@ -13,6 +13,8 @@
                 vetor() = math.pow(2,i);
             }
             document.vetor(bebe);
+            document.getElementById("resultA").innerHTML = vetor;
+            }
          
         }
         </script>
@@ -21,6 +23,6 @@
         <h1>h1</h1>
         <h2>h2</h2>
 
-        <p>p</p>
+        <p id="resultA">p</p>
     </body>
 </html
