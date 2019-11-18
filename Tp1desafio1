@@ -6,7 +6,7 @@
         <script>
         var numeros = new Array(20);
         function vetorAoQuadrado(){
-        for(var i = 0; i<numeros.length; i+=2) {
+        for(var i = 1; i<numeros.length; i+=2) {
              numeros[i] = i;
         }
         document.getElementById("resultA1").innerHTML = numeros;
