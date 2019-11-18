@@ -3,7 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Vetores ímpares</title>
-        <script></script>
+        <script>
+        var numeros = new Array(20);
+        function vetorAoQuadrado(){
+        for(var i = 0; i<numeros.length; i++) {
+             numeros[i] = i;
+        }
+        </script>
     </head>
     <body>
         <h1>h1</h1>
