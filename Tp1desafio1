@@ -5,12 +5,14 @@
         <title>Ordem inversa2</title>
         <script>
         var numeros = new Array(20);
+        var texto = numeros.join(" ");
         function vetorAoQuadrado(){
         for(var i = 1; i<numeros.length; i+=2) {
              numeros[i] = i;
+            
         }
-        document.getElementById("resultA1").innerHTML = numeros;
-        }
+        document.getElementById("resultA1").innerHTML = numeros ;
+    }
         </script>
     </head>
     <body>
