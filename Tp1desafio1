@@ -3,21 +3,37 @@
     <head>
         <meta charset="utf-8">
         <title>Ordem inversa2</title>
-         for(var i = 0; i <numeros.length; i++) {
-             numeros[i] = document.getElementById("usu").value;
-    }
-        document.getElementById("resultA1").innerHTML = numeros;
-        document.getElementById("resultA").innerHTML = numeros.reverse();
-        }
+        <script>
+        function vetorAoQuadrado(){
+        var numeros = new Array(10);
+        numeros[0] = document.getElementById(inp0).value;
+        numeros[1] = document.getElementById(inp1).value;
+        numeros[2] = document.getElementById(inp2).value;
+        numeros[3] = document.getElementById(inp3).value;
+        numeros[4] = document.getElementById(inp4).value;
+        numeros[5] = document.getElementById(inp5).value;
+        numeros[6] = document.getElementById(inp6).value;
+        numeros[7] = document.getElementById(inp7).value;
+        numeros[8] = document.getElementById(inp8).value;
+        numeros[9] = document.getElementById(inp9).value;}
+        document.getElementById("resultA1").innerHTML = numeros + "," + numeros.reverse();
         </script>
     </head>
+        }-->
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
-        <p>Valor:<input type = "number" id = "usu"></p>
-        <p>Valor:<input type = "number" id = "usu"></p>
         <p id="resultA1">p1<p>
-        <p id="resultA">p</p>
+        <input type="number" id="inp0">
+        <input type="number" id="inp1">
+        <input type="number" id="inp2">
+        <input type="number" id="inp3">
+        <input type="number" id="inp4">
+        <input type="number" id="inp5">
+        <input type="number" id="inp6">
+        <input type="number" id="inp7">
+        <input type="number" id="inp8">
+        <input type="number" id="inp9">
         <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
     </body>
 </html>
