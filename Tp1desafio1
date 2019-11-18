@@ -1,0 +1,23 @@
+<!DOCTYPE html><!--Gabarito-->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Gabarito</title>
+        <script>
+            var gabarito = ["a", "b", "c", "d", "e", "a", "b", "c", "d", "e”];
+            var reposta = ;
+        </script><!---->
+    </head>
+    <body>
+        <h1>Respostas</h1>
+        <h2>Questão 1</h2>
+        <form id>
+            <input type="radio" name="respostaQ1" id="aq1" value="a">A
+            <input type="radio" name="respostaQ1" id="bq1" value="b">B
+            <input type="radio" name="respostaQ1" id="cq1" value="c">C
+            <input type="radio" name="respostaQ1" id="dq1" value="d">D
+            <input type="radio" name="respostaQ1" id="eq1" value="e">E
+        </form>
+        <p>p</p>
+    </body>
+</html>
