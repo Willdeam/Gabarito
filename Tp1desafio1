@@ -19,4 +19,4 @@
         <p id="resultA">p</p>
         <button type="button" onclick="vetorAoQuadrado()">Aperta</button>
     </body>
-</html
+</html>
