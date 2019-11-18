@@ -9,8 +9,7 @@
         for(var i = 0; i<numeros.length; i++) {
              numeros[i] = i;
         }
-        document.getElementById("resultA1").innerHTML = numeros;
-        document.getElementById("resultA").innerHTML = numeros.reverse();
+        document.getElementById("resultA1").innerHTML = numeros + "," + numeros.reverse();
         }
         </script>
     </head>
