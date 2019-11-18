@@ -2,25 +2,14 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Ordem inversa</title>
-        <script>
-        var numeros = new Array(10);
-         function vetorzin() {
-         for(var i = 0; i<numeros.length; i++) {
-            numeros[i] = new Array(10);
-         numeros[i][i] = i;
-        }
-        //document.getElementById("resultA").innerHTML = numeros.reverse();
-            document.write(numeros);
-        
-        }
-        </script>
+        <title>Vetores ímpares</title>
+        <script></script>
     </head>
     <body>
         <h1>h1</h1>
         <h2>h2</h2>
-        <p id="resultA">oi</p>
-        <button type="button" onclick="vetorzin()">Aperta</button>
+
+        <p>p</p>
     </body>
-</html
+</html>
     
